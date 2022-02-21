@@ -1,4 +1,6 @@
 # _*_ coding:gbk _*_
+#Released edtion
+#Copyright (C) Airscker,2022-02-21
 import tensorflow as tf
 
 from matplotlib import pyplot as plt
