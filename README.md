@@ -13,7 +13,7 @@ download the code packet as .zip, then unzip it put all .py files into your proj
 
 1.open powershell/cmd(on windows 10/11),then type ```pip install [the name of package you need to install]```
 
-Tips:   if your shell say that there is no 'pip' command exists, or other errors about pip, just uninstall anacoda/python installed before(Visual studio is the same, just unistall python in control panel in your pc)open [Home page of Python downloading](https://www.python.org/downloads/) and download 3.9.X edition, then when you are installing newly downloaded python, make sure you are agree with 'Add python into system environment' !!!,then after installation everything will be no problem. Please forgive me that anacoda is really a shit,don't use it instead of using VS/VS code,pycharm is a second choice,just because it's not free for professional edtion.
+Tips:   if your shell say that there is no 'pip' command exists, or other errors about pip, just uninstall anacoda/python installed before(Visual studio is the same, just unistall python in control panel in your pc)open [Home page of Python downloading](https://www.python.org/downloads/) and download 3.9.X edition, then when you are installing newly downloaded python, make sure you are agree with 'Add python into system environment' !!!,then after installation everything will be no problem. Please forgive me that anacoda is really a shit,don't use it instead using VS/VS code,pycharm is a second choice,just because it's not free for professional edtion.
 
 2.now the packages you need to install:
 
