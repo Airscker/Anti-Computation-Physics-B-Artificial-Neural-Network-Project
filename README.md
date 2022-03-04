@@ -1,15 +1,15 @@
 # Anti-Computation-Physics-B-Artificial-Neural-Network-Project 0.22.2
 
-##Attention
+## Attention
 This is a responsity for any one who is bothered by ZRY's computation physics B-Neural network homework, not aim to teach you about the true CNN/DNN or SML/SDL knowledge,anyone who use this into business will be claimed and anyone who want to report it as abusement will be claimed by all USTCers, at the same time, this responsity will be turned into secret and unfree.
 
-##Q&A
+## Q&A
 
-###How to use?
+### How to use?
 
 download the code packet as .zip, then unzip it put all .py files into your project root filefolder, make sure your IDE will find it when you want to use it in your codes.
 
-####what need to do before opening IDE?
+#### what need to do before opening IDE?
 
 1.open powershell/cmd(on windows 10/11),then type ```pip install [the name of package you need to install]```
 
@@ -40,7 +40,7 @@ Then you need to find your GPUs compute capability on the NVIDIA/AMD(Depend on t
 If not, you need to know that GPU's train speed is a Exp function, which means that it's slower when your train loops is too small.If you really want to use GPU, let NVIDIA as a example, first download CUDA and CUDDN and install it, then:
 ```pip install tensorflow-gpu```
 
-####Start a engine
+#### Start a engine
 
 when you want to train a neural network, just use import key word in your code file(.py), just do it as this way:
 
@@ -51,7 +51,7 @@ N1.KERASNeuralEngine()
 
 Tips:   Do not think that it's out of the command of teacher when you use keras neural network frame, actually you need to konw that Tensorflow 2.X edtion uses almost whole keras system codes and engines, that is to say, you can view Tensorflow 2.X edition as the same as keras, if ZRY/WYS or anybody query your codes, nothing will be clarified except for the truth that he/she is a f*** asshead.
 
-####Parameters of KERAS_NeuralNet()
+#### Parameters of KERAS_NeuralNet()
 
 dataset:the 2-dimension list of all data(containing train/test data),such as [[name1,age1,sex1],[name2,age2,sex2]...]
 labels:the 1-dimension list of data labels
@@ -64,6 +64,6 @@ Dense_num:neural network construction,such as [2,128,2] means that 2-128-2 neura
 opti:Optimizer
 plot_al:Plot the graph of error and accuracy(True/False)
 
-####Return value of KERASNeuralEngine()
+#### Return value of KERASNeuralEngine()
 
 The accuracy of the model in your test dataset.
